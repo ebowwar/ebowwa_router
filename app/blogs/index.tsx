@@ -1,3 +1,5 @@
+"use client"; // Indicates this file uses client-side React features
+
 // Importing necessary components and styles
 import Container from '../../components/container';
 import MoreStories from '../../components/more-stories';

@@ -1,4 +1,6 @@
 // pages/gpts.tsx
+"use client"; // Indicates this file uses client-side React features
+
 import React from 'react';
 
 const GPTsPage = () => {
