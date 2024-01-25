@@ -10,7 +10,7 @@ import Head from 'next/head';
 import { CMS_NAME } from '../../lib/constants';
 import Post from '../../interfaces/post';
 import styles from '../styles/Tags.module.css'; // Import the CSS module for tags
-import { getStaticPropsForBlogs } from '@/lib/getStaticPropsForBlogs';
+import { getStaticPropsForBlogs } from '../../lib/getStaticPropsForBlogs';
 
 
 type Props = {
