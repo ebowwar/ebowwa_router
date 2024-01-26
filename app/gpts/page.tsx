@@ -1,240 +1,36 @@
 import type { NextPage } from 'next';
 import styles from '../styles/index.module.css';
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My GPTs</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+  </style>
+</head>
 
-const Shop:NextPage = () => {
-  	return (
-    		<div className={styles.shop}>
-      			<div className={styles.frameParent}>
-        				<div className={styles.frameGroup}>
-          					<div className={styles.newArrivalsWrapper}>
-            						<b className={styles.newArrivals}>NEW ARRIVALS</b>
-          					</div>
-          					<div className={styles.whatsTrendingWrapper}>
-            						<b className={styles.newArrivals}>WHAT’S TRENDING</b>
-          					</div>
-        				</div>
-        				<div className={styles.frameContainer}>
-          					<div className={styles.cartWithFlatDiscountParent}>
-            						<div className={styles.cartWithFlatDiscount}>
-              							<div className={styles.frameDiv}>
-                								<div className={styles.fillHeartWrapper}>
-                  									<img className={styles.fillHeartIcon} alt="" src="Fill Heart.svg" />
-                								</div>
-                								<img className={styles.frameChild} alt="" src="Frame 611.png" />
-              							</div>
-              							<div className={styles.havitHvG92GamepadParent}>
-                								<div className={styles.havitHvG92Gamepad}>HAVIT HV-G92 Gamepad</div>
-                								<div className={styles.wrapper}>
-                  									<div className={styles.div}>$160</div>
-                								</div>
-                								<div className={styles.fiveStarParent}>
-                  									<div className={styles.fiveStar}>
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                  									</div>
-                  									<b className={styles.b}>(88)</b>
-                								</div>
-              							</div>
-            						</div>
-            						<div className={styles.cartWithFlatDiscount}>
-              							<div className={styles.frameDiv}>
-                								<div className={styles.fillHeartWrapper}>
-                  									<img className={styles.fillHeartIcon} alt="" src="Fill Heart.svg" />
-                								</div>
-                								<img className={styles.frameItem} alt="" src="Frame 611.png" />
-              							</div>
-              							<div className={styles.havitHvG92GamepadParent}>
-                								<div className={styles.havitHvG92Gamepad}>HAVIT HV-G92 Gamepad</div>
-                								<div className={styles.wrapper}>
-                  									<div className={styles.div}>$160</div>
-                								</div>
-                								<div className={styles.fiveStarParent}>
-                  									<div className={styles.fiveStar}>
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                  									</div>
-                  									<b className={styles.b}>(88)</b>
-                								</div>
-              							</div>
-            						</div>
-            						<div className={styles.cartWithFlatDiscount}>
-              							<div className={styles.frameDiv}>
-                								<div className={styles.fillHeartWrapper}>
-                  									<img className={styles.fillHeartIcon} alt="" src="Fill Heart.svg" />
-                								</div>
-                								<div className={styles.frameInner} />
-                								<img className={styles.airMax90FlyeaseIcon} alt="" src="air-max-90-flyease.png" />
-              							</div>
-              							<div className={styles.havitHvG92GamepadParent}>
-                								<div className={styles.havitHvG92Gamepad}>HAVIT HV-G92 Gamepad</div>
-                								<div className={styles.wrapper}>
-                  									<div className={styles.div}>$160</div>
-                								</div>
-                								<div className={styles.fiveStarParent}>
-                  									<div className={styles.fiveStar}>
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                  									</div>
-                  									<b className={styles.b}>(88)</b>
-                								</div>
-              							</div>
-            						</div>
-            						<div className={styles.cartWithFlatDiscount3}>
-              							<div className={styles.frameDiv}>
-                								<div className={styles.discountPercent}>
-                  									<div className={styles.div3}>-35%</div>
-                								</div>
-                								<div className={styles.rectangleDiv} />
-                								<div className={styles.addToCart}>Add To Cart</div>
-                								<div className={styles.fillHeartWrapper}>
-                  									<img className={styles.fillHeartIcon} alt="" src="Fill Heart.svg" />
-                								</div>
-                								<img className={styles.cosmicUnityIcon} alt="" src="cosmic-unity.png" />
-                								<div className={styles.frameChild1} />
-              							</div>
-              							<div className={styles.havitHvG92GamepadParent1}>
-                								<div className={styles.havitHvG92Gamepad}>HAVIT HV-G92 Gamepad</div>
-                								<div className={styles.parent}>
-                  									<div className={styles.havitHvG92Gamepad}>$960</div>
-                  									<div className={styles.div5}>$1160</div>
-                								</div>
-                								<div className={styles.fiveStarParent}>
-                  									<div className={styles.fiveStar}>
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon19} alt="" src="Vector.svg" />
-                  									</div>
-                  									<b className={styles.b}>(75)</b>
-                								</div>
-              							</div>
-            						</div>
-          					</div>
-          					<div className={styles.cartWithFlatDiscountParent}>
-            						<div className={styles.cartWithFlatDiscount}>
-              							<div className={styles.frameDiv}>
-                								<div className={styles.fillHeartWrapper}>
-                  									<img className={styles.fillHeartIcon} alt="" src="Fill Heart.svg" />
-                								</div>
-                								<div className={styles.frameInner} />
-                								<img className={styles.airMax90FlyeaseIcon} alt="" src="air-max-90-flyease.png" />
-              							</div>
-              							<div className={styles.havitHvG92GamepadParent}>
-                								<div className={styles.havitHvG92Gamepad}>HAVIT HV-G92 Gamepad</div>
-                								<div className={styles.wrapper}>
-                  									<div className={styles.div}>$160</div>
-                								</div>
-                								<div className={styles.fiveStarParent}>
-                  									<div className={styles.fiveStar}>
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                  									</div>
-                  									<b className={styles.b}>(88)</b>
-                								</div>
-              							</div>
-            						</div>
-            						<div className={styles.cartWithFlatDiscount3}>
-              							<div className={styles.frameDiv}>
-                								<div className={styles.discountPercent}>
-                  									<div className={styles.div3}>-35%</div>
-                								</div>
-                								<div className={styles.rectangleDiv} />
-                								<div className={styles.addToCart}>Add To Cart</div>
-                								<div className={styles.fillHeartWrapper}>
-                  									<img className={styles.fillHeartIcon} alt="" src="Fill Heart.svg" />
-                								</div>
-                								<img className={styles.cosmicUnityIcon} alt="" src="cosmic-unity.png" />
-                								<div className={styles.frameChild1} />
-              							</div>
-              							<div className={styles.havitHvG92GamepadParent1}>
-                								<div className={styles.havitHvG92Gamepad}>HAVIT HV-G92 Gamepad</div>
-                								<div className={styles.parent}>
-                  									<div className={styles.havitHvG92Gamepad}>$960</div>
-                  									<div className={styles.div5}>$1160</div>
-                								</div>
-                								<div className={styles.fiveStarParent}>
-                  									<div className={styles.fiveStar}>
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon19} alt="" src="Vector.svg" />
-                  									</div>
-                  									<b className={styles.b}>(75)</b>
-                								</div>
-              							</div>
-            						</div>
-            						<div className={styles.cartWithFlatDiscount}>
-              							<div className={styles.frameDiv}>
-                								<div className={styles.fillHeartWrapper}>
-                  									<img className={styles.fillHeartIcon} alt="" src="Fill Heart.svg" />
-                								</div>
-                								<img className={styles.frameItem} alt="" src="Frame 611.png" />
-              							</div>
-              							<div className={styles.havitHvG92GamepadParent}>
-                								<div className={styles.havitHvG92Gamepad}>HAVIT HV-G92 Gamepad</div>
-                								<div className={styles.wrapper}>
-                  									<div className={styles.div}>$160</div>
-                								</div>
-                								<div className={styles.fiveStarParent}>
-                  									<div className={styles.fiveStar}>
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                  									</div>
-                  									<b className={styles.b}>(88)</b>
-                								</div>
-              							</div>
-            						</div>
-            						<div className={styles.cartWithFlatDiscount3}>
-              							<div className={styles.frameDiv}>
-                								<div className={styles.discountPercent}>
-                  									<div className={styles.div3}>-35%</div>
-                								</div>
-                								<div className={styles.fillHeartWrapper}>
-                  									<img className={styles.fillHeartIcon} alt="" src="Fill Heart.svg" />
-                								</div>
-                								<div className={styles.frameChild1} />
-                								<img className={styles.frameChild} alt="" src="Frame 611.png" />
-              							</div>
-              							<div className={styles.havitHvG92GamepadParent1}>
-                								<div className={styles.havitHvG92Gamepad}>HAVIT HV-G92 Gamepad</div>
-                								<div className={styles.parent}>
-                  									<div className={styles.havitHvG92Gamepad}>$960</div>
-                  									<div className={styles.div5}>$1160</div>
-                								</div>
-                								<div className={styles.fiveStarParent}>
-                  									<div className={styles.fiveStar}>
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-                    										<img className={styles.vectorIcon19} alt="" src="Vector.svg" />
-                  									</div>
-                  									<b className={styles.b}>(75)</b>
-                								</div>
-              							</div>
-            						</div>
-          					</div>
-        				</div>
-      			</div>
-    		</div>);
-};
+<body class="bg-white">
+  <div class="max-w-2xl mx-auto py-10">
+    <h1 class="text-3xl font-bold mb-6">My GPTs</h1>
+    <ul>
+      <!-- Repeat this list item for each GPT -->
+      <li class="mb-4">
+        <a href="LINK_URL" class="flex items-center p-4 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">
+          <i class="fas fa-cog text-gray-600 mr-3"></i>
+          <span class="font-semibold">temp_tiktok_marketing</span>
+        </a>
+      </li>
+      <!-- ... More list items ... -->
+    </ul>
+  </div>
+</body>
 
-export default Shop;
+</html>
